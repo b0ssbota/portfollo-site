@@ -100,6 +100,19 @@
       padding: 1rem 0;
       text-align: center;
     }
+    /* Portfolio Section Custom Styles */
+    #portfolio .card .card-title {
+    
+    color: #fff;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    }
+
+    #portfolio .card .card-text {
+    color: #fff;
+    padding: 0.5rem;
+    }
+
   </style>
 </head>
 <body>
@@ -180,26 +193,30 @@
     </div>
   </section>
 
-
 <!-- Portfolio Section -->
 <section id="portfolio">
     <div class="container">
       <h2 class="text-center mb-5">Portfolio</h2>
       <div class="row g-4">
         <div class="col-md-4">
-          <div class="card">
-            <!-- Replace the src below with your screenshot image URL -->
-            <img src="toka.PNG" class="card-img-top" alt="Project 1 Preview">
-            <div class="card-body">
-              <h5 class="card-title">Toka Fittness</h5>
-              <p class="card-text">A brief description of project 1.</p>
+          <a href="https://toka.harryanderton.com/" target="_blank" class="text-decoration-none text-light">
+            <div class="card p-2">
+              <img src="toka.PNG" class="card-img-top" alt="Project 1 Preview">
+              <div class="card-body">
+                <h5 class="card-title">Toka Fitness</h5>
+                <p class="card-text">
+                  This college project is a dynamic fitness website built using the Django framework. It features user authentication, workout scheduling, and nutrition tracking to deliver an engaging experience.
+                </p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
         <!-- Additional portfolio cards can be added here -->
       </div>
     </div>
   </section>
+  
+
   
 
   <!-- Skills Section with List Groups -->
